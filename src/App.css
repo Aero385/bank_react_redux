@@ -1,1 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
 
+button {
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.add-cash {
+    background-color: green;
+}
+
+.get-cash {
+    background-color: red;
+}
+
+.customer {
+    width: fit-content;
+    padding: 10px;
+    font-size: 2rem;
+    border: 1px solid black;
+    margin-top: 5px;
+    background-color: coral;
+    cursor: pointer;
+}
